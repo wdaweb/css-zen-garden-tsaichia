@@ -14,7 +14,7 @@ body {
    font: 75% georgia, sans-serif;
    line-height: 1.88889;
    color: #fff;
-   background: #fff url(./images/flower01.jpg) no-repeat fixed;
+   background: #fff url(https://images.unsplash.com/photo-1577026458711-b769688bd565?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2098&q=80) no-repeat fixed;
    background-size: cover;
    margin: 0;
    padding: 0;
@@ -105,75 +105,102 @@ abbr {
 }
 
 .preamble {
+   color: #ffffff;
+   background: url(./images/flower04.jpg);
+   background-size: cover;
+   background-attachment: fixed;
    background-color: rgba(255, 255, 255, 0.4);
-   border-radius: 2%;
+   border-radius: 1rem;
    font-size: 16px;
-   height: 370px;
-   width: 500px;
+   height: 500px;
+   width: 1200px;
    clear: right;
    float: left;
    position: relative;
    top: 800px;
-   padding: 15px;
+   padding: 40px 60px;
    box-shadow: 0px 0px 20px rgba(15, 16, 16, 0.618);
+   text-shadow: 2px 2px 50px rgba(15, 16, 16, 0.959);
+}
+
+.preamble p {
+   text-align: justify;
+   width: 400px;
 }
 
 .explanation {
+   color: #ffffff;
+   background: url(./images/flower01.jpg);
+   background-size: cover;
+   background-attachment: fixed;
    background-color: rgba(255, 255, 255, 0.4);
-   border-radius: 2%;
+   border-radius: 1rem;
    font-size: 16px;
-   height: 480px;
-   width: 500px;
+   height: 500px;
+   width: 600px;
+   clear: both;
    float: right;
    position: relative;
-   top: 1150px;
-   padding: 15px;
+   top: 900px;
+   right: 100px;
+   padding: 40px 60px;
    box-shadow: 0px 0px 20px rgba(15, 16, 16, 0.618);
+   text-shadow: 2px 2px 50px rgba(15, 16, 16, 0.959);
 }
 
 .requirements {
+   background: url(./images/flower02.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   color: #ffffff;
    background-color: rgba(255, 255, 255, 0.4);
-   border-radius: 2%;
+   border-radius: 1rem;
    font-size: 16px;
-   height: 980px;
-   width: 500px;
+   height: 550px;
+   width: 1200px;
    float: left;
    position: relative;
-   top: 500px;
-   left: 57px;
-   padding: 15px;
+   top: 300px;
+   padding: 40px 60px;
    box-shadow: 0px 0px 20px rgba(15, 16, 16, 0.618);
 }
 
 
 .participation {
-   background-color: rgba(255, 255, 255, 0.4);
-   border-radius: 2%;
+   background: url(./images/green.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   color: #ffffff;
+   border-radius: 1rem;
    font-size: 16px;
-   height: 580px;
-   width: 500px;
-   float: left;
+   height: 350px;
+   width: 1200px;
+   float: right;
    clear: both;
    position: relative;
-   top: 750px;
-   padding: 15px;
+   top: 1600px;
+   right: 200px;
+   padding: 40px 30px;
    box-shadow: 0px 0px 20px rgba(15, 16, 16, 0.618);
+   text-shadow: 2px 2px 50px rgba(15, 16, 16, 0.959);
 }
 
 .benefits {
-   background-color: rgba(255, 255, 255, 0.4);
-   border-radius: 2%;
+   background: url(./images/flower05.jpg);
+   background-size:contain;
+   background-attachment: fixed;
+   color: #ffffff;
+   border-radius: 1rem;
    font-size: 16px;
-   height: 250px;
+   height: 320px;
    width: 500px;
-   float: right;
+   float: left;
    position: relative;
-   top: 1200px;
-   padding: 15px;
+   top: 1700px;
+   padding: 40px 30px;
    box-shadow: 0px 0px 20px rgba(15, 16, 16, 0.618);
+   text-shadow: 2px 2px 50px rgba(15, 16, 16, 0.959);
 }
-
-
 
 
 
@@ -181,13 +208,13 @@ footer {
    font-family: 'Montserrat', sans-serif;
    font-style: italic;
    font-size: 14px;
-   background-color: rgba(0, 0, 0, 0.767);
+   background-color: rgba(0, 0, 0, 0.39);
    text-align: center;
    overflow: hidden;
    clear: both;
    text-align: center;
    position: relative;
-   top: 40vw;
+   top: 70vw;
    left: -110px;
    height: 50px;
    width: 100vw;
@@ -200,46 +227,42 @@ footer a {
 
 
 .sidebar {
+   background-color: #00000052;
+   position: fixed;
    margin-left: 600px;
-   position: absolute;
    overflow: hidden;
-   top: 0;
-   right: 0;
+   border-radius: 1rem;
+   bottom: 100px;
+   right: 20px;
    font-family: 'Julius Sans One', sans-serif ;
+   z-index: 9999;
 }
 .sidebar .wrapper {
    font: 10px verdana, sans-serif;
    background: transparent url() top left repeat-y;
-   padding: 10px;
-   margin-top: 150px;
-   width: 130px;
+   padding: 15px;
+   width: 150px;
 }
 .sidebar h3.select {
    background: transparent url() no-repeat top left;
-   margin: 10px 0 5px 0;
    width: 97px;
    height: 16px;
-
    text-indent: 100%;
    white-space: nowrap;
    overflow: hidden;
 }
 .sidebar h3.archives {
    background: transparent url() no-repeat top left;
-   margin: 25px 0 5px 0;
    width: 57px;
    height: 14px;
-
    text-indent: 100%;
    white-space: nowrap;
    overflow: hidden;
 }
 .sidebar h3.resources {
    background: transparent url() no-repeat top left;
-   margin: 25px 0 5px 0;
    width: 63px;
    height: 10px;
-
    text-indent: 100%;
    white-space: nowrap;
    overflow: hidden;
@@ -250,7 +273,7 @@ footer a {
    padding: 0;
 }
 .sidebar li {
-   line-height: 1.3em;
+   line-height: 1.5em;
    background: transparent url() no-repeat top center;
    display: block;
    padding-top: 5px;
